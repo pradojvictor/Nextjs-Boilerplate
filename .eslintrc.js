@@ -4,13 +4,7 @@ module.exports = {
     es2021: true,
     jest: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:prettier/recommended',
-    'prettier',
-  ],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:prettier/recommended', 'prettier', 'plugin:storybook/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
