@@ -21,5 +21,6 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'on',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@next/next/no-img-element': 'off',
   },
 };
