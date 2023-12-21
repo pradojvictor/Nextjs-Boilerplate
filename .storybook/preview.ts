@@ -1,9 +1,8 @@
 import { ThemeProvider } from 'styled-components';
 import { withThemeFromJSXProvider } from '@storybook/addon-themes';
-import { GlobalStyles } from '../src/styles/global-styles'
+import  GlobalStyles  from '../src/styles/globalstyles'
 
-import { theme, light, dark } from '../src/styles/theme';
-import { textSpanEnd } from 'typescript';
+import { light, dark } from '../src/styles/theme';
 
 /* snipped for brevity */
 
